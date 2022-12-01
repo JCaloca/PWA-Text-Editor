@@ -34,7 +34,7 @@ module.exports = () => {
         inject: true,
         name: "PWA-Text-Editor",
         short_name: "PTE",
-        description: "A text editor",
+        description: "Takes notes with JavaScript syntax highlighting!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "/",
