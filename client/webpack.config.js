@@ -22,7 +22,6 @@ module.exports = () => {
       // Webpack plugin to generate html file and inject our bundles
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "PTE",
       }),
       // Injectinig custom service worker
       new InjectManifest({
@@ -36,10 +35,10 @@ module.exports = () => {
         name: "PWA-Text-Editor",
         short_name: "PTE",
         description: "A text editor",
-        background_color: "#31a9e1",
-        theme_color: "#31a9e1",
-        start_url: "./",
-        publicPath: "./",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
