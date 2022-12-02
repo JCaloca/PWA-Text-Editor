@@ -2,7 +2,9 @@
 
 ## Description
 
-A JavaScript text editor that runs in the browser. This is a single-page application built using PWA criteria. The application features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. Built from starter files
+A JavaScript text editor that runs in the browser. This is a single-page application built using PWA criteria. The application features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. IndexedDB is used to create an object store that, webpack is used to bundle and babel is used as a js translator. Please see the deployed version via the Heroku link below.
+
+[Deployed application]("https://amazing-js-text-editor.herokuapp.com/")
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
